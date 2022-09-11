@@ -1,8 +1,10 @@
 import * as React from 'react';
 
+import Business from '@/components/business/Business';
 import Hero from '@/components/Hero';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
+import Stats from '@/components/Stats';
 
 /**
  * SVGR Support
@@ -18,8 +20,12 @@ export default function HomePage() {
       <Layout>
         {/* <Seo templateTitle='Home' /> */}
         <Seo />
-        <div className='flex items-center justify-center sm:justify-start'>
+        <div className='mb-6 flex items-center justify-center sm:justify-start'>
           <Hero />
+        </div>
+        <div className='grid grid-flow-row gap-6'>
+          <Stats />
+          <Business />
         </div>
       </Layout>
     </div>
