@@ -20,10 +20,10 @@ const Stats = () => {
   ];
 
   return (
-    <section className='grid grid-rows-3 content-center gap-4 sm:grid-cols-3 sm:divide-x'>
+    <section className='grid grid-flow-row content-center gap-4 sm:grid-flow-col sm:divide-x'>
       {stats.map((stat) => (
         <div
-          className='grid grid-flow-col-dense items-center justify-center gap-2'
+          className='grid grid-flow-col items-center justify-center gap-2'
           key={stat.id}
         >
           <h4 className='text-2xl font-bold text-white'>{stat.value}</h4>

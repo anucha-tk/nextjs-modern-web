@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import Billing from '@/components/Billing';
 import Business from '@/components/business/Business';
 import Hero from '@/components/Hero';
 import Layout from '@/components/layout/Layout';
@@ -20,12 +21,11 @@ export default function HomePage() {
       <Layout>
         {/* <Seo templateTitle='Home' /> */}
         <Seo />
-        <div className='mb-6 flex items-center justify-center sm:justify-start'>
+        <div className='grid grid-flow-row grid-cols-1 gap-12'>
           <Hero />
-        </div>
-        <div className='grid grid-flow-row gap-6'>
           <Stats />
           <Business />
+          <Billing />
         </div>
       </Layout>
     </div>
