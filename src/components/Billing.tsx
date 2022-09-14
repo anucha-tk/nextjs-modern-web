@@ -9,8 +9,8 @@ const Billing = () => {
       id='billing'
       className='grid auto-cols-fr justify-items-center gap-6 text-white sm:grid-cols-2'
     >
-      <div className='w-full'>
-        <div className='relative z-[5] h-60 md:h-80 lg:h-96'>
+      <div className='relative flex h-60 w-full md:h-80 lg:h-96'>
+        <div className='z-[5]'>
           <Image
             src='/images/bill.png'
             alt='billing'
@@ -18,9 +18,9 @@ const Billing = () => {
             objectFit='contain'
           />
         </div>
-        <div className='absolute z-[0] h-[300px] w-[300px] rounded-full bg-gradient-to-t from-[#fc67fa] to-[#f4c4f3] blur-[200px] sm:h-[400px] sm:w-[400px]' />
-        <div className='absolute bottom-40 z-[1] h-[300px] w-[300px] rounded-full bg-white opacity-60 blur-[200px]' />
-        <div className='absolute bottom-20 z-[0] h-[300px] w-[300px] rounded-full bg-gradient-to-tr from-[#214d76] blur-[50px]' />
+        <div className='absolute bottom-10 left-20 z-0 h-[200px] w-[200px] rounded-full bg-gradient-to-t from-[#fc67fa] to-[#f4c4f3] blur-[200px] sm:h-[300px] sm:w-[300px]' />
+        <div className='absolute bottom-10 left-20 z-[1] h-[200px] w-[200px] rounded-full bg-white opacity-60 blur-[200px] sm:h-[200px] sm:w-[200px]' />
+        <div className='absolute bottom-20 z-[0] h-[300px] w-[300px] rounded-full bg-gradient-to-tr from-[#214d76] blur-[80px]' />
       </div>
 
       <div className='grid justify-items-center gap-6 text-center sm:text-start'>

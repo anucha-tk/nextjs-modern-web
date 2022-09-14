@@ -70,9 +70,9 @@ function Hero() {
               objectPosition='right'
             />
           </div>
-          <div className='absolute bottom-20 z-[0] h-[150px] w-[150px] rounded-full bg-gradient-to-t from-[#fc67fa] to-[#f4c4f3] blur-[100px] sm:h-[200px] sm:w-[200px] lg:h-[300px] lg:w-[300px]' />
-          <div className='absolute bottom-10 z-[1] h-[200px] w-[200px] rounded-full bg-white opacity-60 blur-[100px] sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px]' />
-          <div className='absolute z-[0] h-[200px] w-[200px] rounded-full bg-gradient-to-tr from-[#2a659c] blur-[30px] sm:h-[400px] sm:w-[400px]' />
+          <div className='absolute bottom-20 z-[0] h-[150px] w-[150px] rounded-full bg-gradient-to-t from-[#fc67fa] to-[#f4c4f3] blur-[120px] sm:h-[200px] sm:w-[200px] lg:h-[300px] lg:w-[300px]' />
+          <div className='absolute bottom-10 z-[1] h-[100px] w-[100px] rounded-full bg-white opacity-60 blur-[180px] sm:h-[200px] sm:w-[200px] lg:h-[300px] lg:w-[300px]' />
+          <div className='absolute z-[0] h-[200px] w-[200px] rounded-full bg-gradient-to-tr from-[#2a659c] blur-[100px] sm:h-[400px] sm:w-[400px]' />
         </div>
 
         <div className='flex items-center justify-center sm:hidden'>
