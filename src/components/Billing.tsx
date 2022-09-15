@@ -34,10 +34,8 @@ const Billing = () => {
         </p>
         <div className='grid h-16 w-full grid-flow-col gap-6'>
           {appStoreImages.map((e) => (
-            <div key={e}>
-              <div className='relative cursor-pointer'>
-                <Image src={e} alt='apple' layout='fill' objectFit='contain' />
-              </div>
+            <div key={e} className='relative cursor-pointer'>
+              <Image src={e} alt='apple' layout='fill' objectFit='contain' />
             </div>
           ))}
         </div>

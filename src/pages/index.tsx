@@ -4,6 +4,7 @@ import Billing from '@/components/Billing';
 import Business from '@/components/business/Business';
 import Hero from '@/components/Hero';
 import Layout from '@/components/layout/Layout';
+import Payment from '@/components/Payment';
 import Seo from '@/components/Seo';
 import Stats from '@/components/Stats';
 
@@ -26,6 +27,7 @@ export default function HomePage() {
           <Stats />
           <Business />
           <Billing />
+          <Payment />
         </div>
       </Layout>
     </div>
