@@ -5,7 +5,7 @@ import Button from '@/components/Button';
 
 const Business = () => {
   return (
-    <section className='grid grid-flow-row gap-6 sm:grid-flow-col sm:items-start'>
+    <section className='grid grid-flow-row gap-6 sm:grid-cols-2 sm:items-start'>
       <div
         id='Business__contents'
         className='grid justify-items-center text-center sm:justify-items-start sm:text-start'

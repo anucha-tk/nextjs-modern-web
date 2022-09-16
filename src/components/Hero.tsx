@@ -8,7 +8,7 @@ function Hero() {
     <>
       <section
         id='home'
-        className='grid grid-cols-1 grid-rows-1 justify-items-center gap-6 sm:grid-cols-2'
+        className='grid grid-cols-1 grid-rows-1 gap-6 sm:grid-cols-2'
       >
         <div
           id='hero__contents'
@@ -59,11 +59,11 @@ function Hero() {
 
         <div
           id='hero__images'
-          className='relative -right-8 flex h-[300px] w-full items-center justify-center sm:-right-12 sm:h-[400px] lg:-right-24 lg:h-[500px]'
+          className='relative flex h-[300px] w-full items-center justify-center sm:h-[400px] lg:h-[500px]'
         >
           <div className='z-[5]'>
             <Image
-              src='/images/robot.png'
+              src='/images/robot-bg.png'
               alt='robot'
               layout='fill'
               objectFit='contain'

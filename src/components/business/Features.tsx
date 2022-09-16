@@ -27,13 +27,13 @@ const Features = () => {
   ];
 
   return (
-    <div className='grid max-w-lg grid-flow-row gap-4'>
+    <div className='grid grid-flow-row gap-4'>
       {features.map((e) => (
         <div
-          className='grid grid-flow-col items-center gap-6 rounded-xl from-[#302E39] to-[#211D29] p-4 hover:bg-gradient-to-b'
+          className='grid grid-flow-col items-center justify-start justify-items-center gap-6 rounded-xl from-[#302E39] to-[#211D29] p-4 hover:bg-gradient-to-b'
           key={e.id}
         >
-          <div className='grid rounded-full bg-slate-700'>
+          <div className='grid w-fit rounded-full bg-slate-700'>
             <div className='relative m-4 h-8 w-8 lg:h-12 lg:w-12'>
               <Image
                 src={e.icon}
